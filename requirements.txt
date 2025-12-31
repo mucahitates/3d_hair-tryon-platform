@@ -1,0 +1,6 @@
+numpy==2.2.6
+opencv-python==4.12.0.88
+PyQt5==5.15.11
+PyQtWebEngine==5.15.7
+beautifulsoup4
+requests

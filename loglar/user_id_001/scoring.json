@@ -1,0 +1,1032 @@
+{
+  "timestamp": "2025-12-25T15:04:38.161338",
+  "log_type": "scoring",
+  "data": {
+    "total_raw_frames": 83,
+    "total_scored_frames": 83,
+    "total_selected_frames": 43,
+    "thresholds_used": {
+      "min_sharpness": 0.05,
+      "min_lighting": 0.05,
+      "min_pose": 0.0,
+      "min_total_score": 0.0
+    },
+    "weights_used": {
+      "sharpness": 0.1,
+      "lighting": 0.1,
+      "pose": 0.2
+    },
+    "all_frames": [
+      {
+        "filename": "frame_0001.jpg",
+        "sharpness": 0.08898417953760512,
+        "lighting": 0.40419109704066813,
+        "pose": 0.8820958378721859,
+        "total_score": 0.22573669523226453,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0002.jpg",
+        "sharpness": 0.059590544340138385,
+        "lighting": 0.40275226942628906,
+        "pose": 0.8783157074558219,
+        "total_score": 0.22189742286780711,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0003.jpg",
+        "sharpness": 0.06635896823132467,
+        "lighting": 0.40214449058944557,
+        "pose": 0.8739223477971435,
+        "total_score": 0.22163481544150576,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0004.jpg",
+        "sharpness": 0.07278033541836258,
+        "lighting": 0.39743314648390204,
+        "pose": 0.8718520863592351,
+        "total_score": 0.22139176546207348,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0005.jpg",
+        "sharpness": 0.08900687061571459,
+        "lighting": 0.39721683611716285,
+        "pose": 0.8707177892762044,
+        "total_score": 0.22276592852852864,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0006.jpg",
+        "sharpness": 0.09028731671850046,
+        "lighting": 0.39724733342411045,
+        "pose": 0.8694361610384894,
+        "total_score": 0.22264069722195898,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0007.jpg",
+        "sharpness": 0.09440695158912976,
+        "lighting": 0.39689618887678524,
+        "pose": 0.8665979938271605,
+        "total_score": 0.22244991281202364,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0008.jpg",
+        "sharpness": 0.08898851701972706,
+        "lighting": 0.39612530637254895,
+        "pose": 0.863733561788913,
+        "total_score": 0.22125809469701022,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0009.jpg",
+        "sharpness": 0.09877478007249037,
+        "lighting": 0.3969393722766885,
+        "pose": 0.8604484915879932,
+        "total_score": 0.22166111355251655,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0010.jpg",
+        "sharpness": 0.08910713203456333,
+        "lighting": 0.39741203325466,
+        "pose": 0.857912952372307,
+        "total_score": 0.22023450700338376,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0011.jpg",
+        "sharpness": 0.08294941041243861,
+        "lighting": 0.39659883351488734,
+        "pose": 0.8627310729847495,
+        "total_score": 0.2205010389896825,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0012.jpg",
+        "sharpness": 0.04109853696590263,
+        "lighting": 0.39764024676228527,
+        "pose": 0.8652831563180828,
+        "total_score": 0.21693050963643537,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0013.jpg",
+        "sharpness": 0.026143735729937657,
+        "lighting": 0.4002741807371095,
+        "pose": 0.8695338976640039,
+        "total_score": 0.21654857117950552,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0014.jpg",
+        "sharpness": 0.022215790030563527,
+        "lighting": 0.4057820707758413,
+        "pose": 0.8642488728516098,
+        "total_score": 0.21564956065096247,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0015.jpg",
+        "sharpness": 0.025575614016239187,
+        "lighting": 0.41430768503389026,
+        "pose": 0.8532368902808036,
+        "total_score": 0.21463570796117368,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0016.jpg",
+        "sharpness": 0.030667071831596983,
+        "lighting": 0.4255099287400146,
+        "pose": 0.8493427363229242,
+        "total_score": 0.21548624732174604,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0017.jpg",
+        "sharpness": 0.026647407229574514,
+        "lighting": 0.44031812439481977,
+        "pose": 0.8435817220406681,
+        "total_score": 0.21541289757057305,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0018.jpg",
+        "sharpness": 0.026802894945131543,
+        "lighting": 0.4552221503570564,
+        "pose": 0.8364909449891067,
+        "total_score": 0.21550069352804013,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0019.jpg",
+        "sharpness": 0.03245622302745065,
+        "lighting": 0.4736109144274996,
+        "pose": 0.8200500181554103,
+        "total_score": 0.21461671737657712,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0020.jpg",
+        "sharpness": 0.03377863443365716,
+        "lighting": 0.4874151423686759,
+        "pose": 0.8045295101065117,
+        "total_score": 0.21302527970153567,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0021.jpg",
+        "sharpness": 0.06554609754514731,
+        "lighting": 0.5023915327705155,
+        "pose": 0.7879626376785283,
+        "total_score": 0.21438629056727193,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0022.jpg",
+        "sharpness": 0.051006922532470765,
+        "lighting": 0.5125003782377147,
+        "pose": 0.7806194625998547,
+        "total_score": 0.2124746225969895,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0023.jpg",
+        "sharpness": 0.05770560204260973,
+        "lighting": 0.5207716805858147,
+        "pose": 0.7744657921810699,
+        "total_score": 0.21274088669905644,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0024.jpg",
+        "sharpness": 0.05304791990877468,
+        "lighting": 0.5292740180948923,
+        "pose": 0.7689011437908497,
+        "total_score": 0.21201242255853667,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0025.jpg",
+        "sharpness": 0.03191662215863255,
+        "lighting": 0.5337464975187605,
+        "pose": 0.7628775871459695,
+        "total_score": 0.20914182939693324,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0026.jpg",
+        "sharpness": 0.032600584356066185,
+        "lighting": 0.5376846405228757,
+        "pose": 0.7577641158315178,
+        "total_score": 0.20858134565419778,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0027.jpg",
+        "sharpness": 0.0537825387979157,
+        "lighting": 0.5399622064875333,
+        "pose": 0.7538740619704671,
+        "total_score": 0.21014928692263835,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0028.jpg",
+        "sharpness": 0.053668869875242324,
+        "lighting": 0.5399193672839506,
+        "pose": 0.7525558278867103,
+        "total_score": 0.20986998929326137,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0029.jpg",
+        "sharpness": 0.055992850048582336,
+        "lighting": 0.5393898836540789,
+        "pose": 0.7517223054345195,
+        "total_score": 0.20988273445717004,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0030.jpg",
+        "sharpness": 0.09343035641014726,
+        "lighting": 0.5394112692144759,
+        "pose": 0.7500164079520697,
+        "total_score": 0.21328744415287626,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0031.jpg",
+        "sharpness": 0.0708365649258884,
+        "lighting": 0.5378391846707817,
+        "pose": 0.7504001679375454,
+        "total_score": 0.21094760854717612,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0032.jpg",
+        "sharpness": 0.07309255537538044,
+        "lighting": 0.5358580209089807,
+        "pose": 0.7512142716654563,
+        "total_score": 0.21113791196152737,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0033.jpg",
+        "sharpness": 0.06899326259614921,
+        "lighting": 0.5335570571592834,
+        "pose": 0.7538789412369886,
+        "total_score": 0.211030820222941,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0034.jpg",
+        "sharpness": 0.07368506979271951,
+        "lighting": 0.5299934262285162,
+        "pose": 0.7602479423868312,
+        "total_score": 0.21241743807948985,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0035.jpg",
+        "sharpness": 0.042879602612200494,
+        "lighting": 0.5203126739893489,
+        "pose": 0.7713930495037521,
+        "total_score": 0.2105978375609054,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0036.jpg",
+        "sharpness": 0.03816873842472029,
+        "lighting": 0.5077697893972404,
+        "pose": 0.7833981632776568,
+        "total_score": 0.21127348543772745,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0037.jpg",
+        "sharpness": 0.026456935753238212,
+        "lighting": 0.4971541999515856,
+        "pose": 0.8033935033890099,
+        "total_score": 0.2130398142482844,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0038.jpg",
+        "sharpness": 0.02104625916249028,
+        "lighting": 0.4845114984265311,
+        "pose": 0.8207449164851126,
+        "total_score": 0.21470475905592468,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0039.jpg",
+        "sharpness": 0.021334099632678072,
+        "lighting": 0.4697356118373275,
+        "pose": 0.8323003358750908,
+        "total_score": 0.2155670383220187,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0040.jpg",
+        "sharpness": 0.027257226679881494,
+        "lighting": 0.4577301652142338,
+        "pose": 0.8378497185911402,
+        "total_score": 0.2160686829076396,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0041.jpg",
+        "sharpness": 0.017789159378577595,
+        "lighting": 0.4423354363350278,
+        "pose": 0.8464643246187364,
+        "total_score": 0.21530532449510784,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0042.jpg",
+        "sharpness": 0.015227761598716758,
+        "lighting": 0.42737668315783095,
+        "pose": 0.8569355558581457,
+        "total_score": 0.21564755564728394,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0043.jpg",
+        "sharpness": 0.015380176948106882,
+        "lighting": 0.4136272505144034,
+        "pose": 0.8707973175381264,
+        "total_score": 0.21706020625387631,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0044.jpg",
+        "sharpness": 0.014498928147094898,
+        "lighting": 0.40448374712539326,
+        "pose": 0.8757665441176471,
+        "total_score": 0.21705157635077824,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0045.jpg",
+        "sharpness": 0.015738634387941708,
+        "lighting": 0.399577818627451,
+        "pose": 0.8797701827644638,
+        "total_score": 0.21748568185443204,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0046.jpg",
+        "sharpness": 0.022104799354863452,
+        "lighting": 0.39732146045146455,
+        "pose": 0.8897847146574679,
+        "total_score": 0.2198995689121264,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0047.jpg",
+        "sharpness": 0.023680941939106172,
+        "lighting": 0.39523462463689185,
+        "pose": 0.9015351534132171,
+        "total_score": 0.22219858734024323,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0048.jpg",
+        "sharpness": 0.030031575746680136,
+        "lighting": 0.3938075223916728,
+        "pose": 0.9096676046961994,
+        "total_score": 0.2243174307530752,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0049.jpg",
+        "sharpness": 0.03511565133090667,
+        "lighting": 0.39372584195715343,
+        "pose": 0.9122875590050835,
+        "total_score": 0.22534166112982273,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0050.jpg",
+        "sharpness": 0.06438431989406708,
+        "lighting": 0.3928949482570807,
+        "pose": 0.9130369462599854,
+        "total_score": 0.22833531606711188,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0051.jpg",
+        "sharpness": 0.059452159931793,
+        "lighting": 0.39254110687484856,
+        "pose": 0.9135029653836844,
+        "total_score": 0.22789991975740104,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0052.jpg",
+        "sharpness": 0.06102052914504319,
+        "lighting": 0.3922227631021544,
+        "pose": 0.912493986020334,
+        "total_score": 0.22782312642878658,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0053.jpg",
+        "sharpness": 0.06154477952516284,
+        "lighting": 0.39218692507867337,
+        "pose": 0.9106536704187848,
+        "total_score": 0.2275039045441406,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0054.jpg",
+        "sharpness": 0.05607210842709335,
+        "lighting": 0.3921661976519002,
+        "pose": 0.9114052741466957,
+        "total_score": 0.2271048854372385,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0055.jpg",
+        "sharpness": 0.04433900227550522,
+        "lighting": 0.39111922809247157,
+        "pose": 0.9027052771725974,
+        "total_score": 0.22408687847131717,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0056.jpg",
+        "sharpness": 0.03548495023107124,
+        "lighting": 0.39171754342168974,
+        "pose": 0.8824249954611474,
+        "total_score": 0.21920524845750558,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0057.jpg",
+        "sharpness": 0.031631164084619766,
+        "lighting": 0.39259530833938516,
+        "pose": 0.8670105906560155,
+        "total_score": 0.2158247653736036,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0058.jpg",
+        "sharpness": 0.026657448583154587,
+        "lighting": 0.3948310563422901,
+        "pose": 0.8572596677559913,
+        "total_score": 0.21360078404374272,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0059.jpg",
+        "sharpness": 0.020580344009251975,
+        "lighting": 0.4015642928467684,
+        "pose": 0.8544868675865408,
+        "total_score": 0.21311183720291021,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0060.jpg",
+        "sharpness": 0.016625844311521334,
+        "lighting": 0.40539930555555537,
+        "pose": 0.8490153413217139,
+        "total_score": 0.21200558325105046,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0061.jpg",
+        "sharpness": 0.016165647649562964,
+        "lighting": 0.41466046735052053,
+        "pose": 0.8443476080246913,
+        "total_score": 0.21195213310494665,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0062.jpg",
+        "sharpness": 0.015062642721279003,
+        "lighting": 0.4242901953219558,
+        "pose": 0.8454103652263374,
+        "total_score": 0.21301735684959094,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0063.jpg",
+        "sharpness": 0.014245413693829426,
+        "lighting": 0.4358100301077221,
+        "pose": 0.855320374909223,
+        "total_score": 0.21606961936199978,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0064.jpg",
+        "sharpness": 0.013078886808041248,
+        "lighting": 0.45208240286855483,
+        "pose": 0.8613485536189784,
+        "total_score": 0.21878583969145532,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0065.jpg",
+        "sharpness": 0.013772226923519084,
+        "lighting": 0.47148942447349307,
+        "pose": 0.8521344862018881,
+        "total_score": 0.21895306238007883,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0066.jpg",
+        "sharpness": 0.021172807111212236,
+        "lighting": 0.4868824588477365,
+        "pose": 0.8392946774388768,
+        "total_score": 0.21866446208367024,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0067.jpg",
+        "sharpness": 0.03599119726598758,
+        "lighting": 0.49837232964173306,
+        "pose": 0.8245408648027113,
+        "total_score": 0.21834452565131435,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0068.jpg",
+        "sharpness": 0.03454298496650425,
+        "lighting": 0.5073419836298718,
+        "pose": 0.8115627496368918,
+        "total_score": 0.21650104678701598,
+        "passes_threshold": false
+      },
+      {
+        "filename": "frame_0069.jpg",
+        "sharpness": 0.061289225019289885,
+        "lighting": 0.5171378033466474,
+        "pose": 0.7972177817114501,
+        "total_score": 0.21728625917888375,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0070.jpg",
+        "sharpness": 0.054884890519705944,
+        "lighting": 0.521873316842169,
+        "pose": 0.7837325632413459,
+        "total_score": 0.21442233338445668,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0071.jpg",
+        "sharpness": 0.058195849728137246,
+        "lighting": 0.5259463469801502,
+        "pose": 0.7764707470951343,
+        "total_score": 0.2137083690898556,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0072.jpg",
+        "sharpness": 0.0646292852774077,
+        "lighting": 0.5289709513435004,
+        "pose": 0.7773344680464779,
+        "total_score": 0.2148269172713864,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0073.jpg",
+        "sharpness": 0.06989612557477326,
+        "lighting": 0.5312344619946745,
+        "pose": 0.7778969529169693,
+        "total_score": 0.21569244934033865,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0074.jpg",
+        "sharpness": 0.08967785396554555,
+        "lighting": 0.5347728644698619,
+        "pose": 0.7756419526143791,
+        "total_score": 0.2175734623664166,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0075.jpg",
+        "sharpness": 0.09195456886105123,
+        "lighting": 0.5364621194928589,
+        "pose": 0.7755168315783103,
+        "total_score": 0.2179450351510531,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0076.jpg",
+        "sharpness": 0.10621387200025717,
+        "lighting": 0.5376617155349794,
+        "pose": 0.7746911991648511,
+        "total_score": 0.21932579858649387,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0077.jpg",
+        "sharpness": 0.1056241864141749,
+        "lighting": 0.5374374924352456,
+        "pose": 0.7711751089324619,
+        "total_score": 0.21854118967143446,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0078.jpg",
+        "sharpness": 0.11505210644200443,
+        "lighting": 0.5378995778867102,
+        "pose": 0.7695046447591383,
+        "total_score": 0.21919609738469914,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0079.jpg",
+        "sharpness": 0.15089701018874038,
+        "lighting": 0.5394359416606147,
+        "pose": 0.770411552892762,
+        "total_score": 0.2231156057634879,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0080.jpg",
+        "sharpness": 0.11733075375180041,
+        "lighting": 0.5374397959029291,
+        "pose": 0.7740524767005568,
+        "total_score": 0.22028755030558433,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0081.jpg",
+        "sharpness": 0.125179891974169,
+        "lighting": 0.5360121489954006,
+        "pose": 0.7776154078915517,
+        "total_score": 0.2216422856752673,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0082.jpg",
+        "sharpness": 0.12028762345655201,
+        "lighting": 0.5357025084725249,
+        "pose": 0.7792921356814331,
+        "total_score": 0.2214574403291943,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0083.jpg",
+        "sharpness": 0.13350315151695913,
+        "lighting": 0.5348449792725734,
+        "pose": 0.7840694671387074,
+        "total_score": 0.22364870650669474,
+        "passes_threshold": true
+      }
+    ],
+    "selected_frames": [
+      {
+        "filename": "frame_0050.jpg",
+        "sharpness": 0.06438431989406708,
+        "lighting": 0.3928949482570807,
+        "pose": 0.9130369462599854,
+        "total_score": 0.22833531606711188,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0051.jpg",
+        "sharpness": 0.059452159931793,
+        "lighting": 0.39254110687484856,
+        "pose": 0.9135029653836844,
+        "total_score": 0.22789991975740104,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0052.jpg",
+        "sharpness": 0.06102052914504319,
+        "lighting": 0.3922227631021544,
+        "pose": 0.912493986020334,
+        "total_score": 0.22782312642878658,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0053.jpg",
+        "sharpness": 0.06154477952516284,
+        "lighting": 0.39218692507867337,
+        "pose": 0.9106536704187848,
+        "total_score": 0.2275039045441406,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0054.jpg",
+        "sharpness": 0.05607210842709335,
+        "lighting": 0.3921661976519002,
+        "pose": 0.9114052741466957,
+        "total_score": 0.2271048854372385,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0001.jpg",
+        "sharpness": 0.08898417953760512,
+        "lighting": 0.40419109704066813,
+        "pose": 0.8820958378721859,
+        "total_score": 0.22573669523226453,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0083.jpg",
+        "sharpness": 0.13350315151695913,
+        "lighting": 0.5348449792725734,
+        "pose": 0.7840694671387074,
+        "total_score": 0.22364870650669474,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0079.jpg",
+        "sharpness": 0.15089701018874038,
+        "lighting": 0.5394359416606147,
+        "pose": 0.770411552892762,
+        "total_score": 0.2231156057634879,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0005.jpg",
+        "sharpness": 0.08900687061571459,
+        "lighting": 0.39721683611716285,
+        "pose": 0.8707177892762044,
+        "total_score": 0.22276592852852864,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0006.jpg",
+        "sharpness": 0.09028731671850046,
+        "lighting": 0.39724733342411045,
+        "pose": 0.8694361610384894,
+        "total_score": 0.22264069722195898,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0007.jpg",
+        "sharpness": 0.09440695158912976,
+        "lighting": 0.39689618887678524,
+        "pose": 0.8665979938271605,
+        "total_score": 0.22244991281202364,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0002.jpg",
+        "sharpness": 0.059590544340138385,
+        "lighting": 0.40275226942628906,
+        "pose": 0.8783157074558219,
+        "total_score": 0.22189742286780711,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0009.jpg",
+        "sharpness": 0.09877478007249037,
+        "lighting": 0.3969393722766885,
+        "pose": 0.8604484915879932,
+        "total_score": 0.22166111355251655,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0081.jpg",
+        "sharpness": 0.125179891974169,
+        "lighting": 0.5360121489954006,
+        "pose": 0.7776154078915517,
+        "total_score": 0.2216422856752673,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0003.jpg",
+        "sharpness": 0.06635896823132467,
+        "lighting": 0.40214449058944557,
+        "pose": 0.8739223477971435,
+        "total_score": 0.22163481544150576,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0082.jpg",
+        "sharpness": 0.12028762345655201,
+        "lighting": 0.5357025084725249,
+        "pose": 0.7792921356814331,
+        "total_score": 0.2214574403291943,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0004.jpg",
+        "sharpness": 0.07278033541836258,
+        "lighting": 0.39743314648390204,
+        "pose": 0.8718520863592351,
+        "total_score": 0.22139176546207348,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0008.jpg",
+        "sharpness": 0.08898851701972706,
+        "lighting": 0.39612530637254895,
+        "pose": 0.863733561788913,
+        "total_score": 0.22125809469701022,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0011.jpg",
+        "sharpness": 0.08294941041243861,
+        "lighting": 0.39659883351488734,
+        "pose": 0.8627310729847495,
+        "total_score": 0.2205010389896825,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0080.jpg",
+        "sharpness": 0.11733075375180041,
+        "lighting": 0.5374397959029291,
+        "pose": 0.7740524767005568,
+        "total_score": 0.22028755030558433,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0010.jpg",
+        "sharpness": 0.08910713203456333,
+        "lighting": 0.39741203325466,
+        "pose": 0.857912952372307,
+        "total_score": 0.22023450700338376,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0076.jpg",
+        "sharpness": 0.10621387200025717,
+        "lighting": 0.5376617155349794,
+        "pose": 0.7746911991648511,
+        "total_score": 0.21932579858649387,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0078.jpg",
+        "sharpness": 0.11505210644200443,
+        "lighting": 0.5378995778867102,
+        "pose": 0.7695046447591383,
+        "total_score": 0.21919609738469914,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0077.jpg",
+        "sharpness": 0.1056241864141749,
+        "lighting": 0.5374374924352456,
+        "pose": 0.7711751089324619,
+        "total_score": 0.21854118967143446,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0075.jpg",
+        "sharpness": 0.09195456886105123,
+        "lighting": 0.5364621194928589,
+        "pose": 0.7755168315783103,
+        "total_score": 0.2179450351510531,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0074.jpg",
+        "sharpness": 0.08967785396554555,
+        "lighting": 0.5347728644698619,
+        "pose": 0.7756419526143791,
+        "total_score": 0.2175734623664166,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0069.jpg",
+        "sharpness": 0.061289225019289885,
+        "lighting": 0.5171378033466474,
+        "pose": 0.7972177817114501,
+        "total_score": 0.21728625917888375,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0073.jpg",
+        "sharpness": 0.06989612557477326,
+        "lighting": 0.5312344619946745,
+        "pose": 0.7778969529169693,
+        "total_score": 0.21569244934033865,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0072.jpg",
+        "sharpness": 0.0646292852774077,
+        "lighting": 0.5289709513435004,
+        "pose": 0.7773344680464779,
+        "total_score": 0.2148269172713864,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0070.jpg",
+        "sharpness": 0.054884890519705944,
+        "lighting": 0.521873316842169,
+        "pose": 0.7837325632413459,
+        "total_score": 0.21442233338445668,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0021.jpg",
+        "sharpness": 0.06554609754514731,
+        "lighting": 0.5023915327705155,
+        "pose": 0.7879626376785283,
+        "total_score": 0.21438629056727193,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0071.jpg",
+        "sharpness": 0.058195849728137246,
+        "lighting": 0.5259463469801502,
+        "pose": 0.7764707470951343,
+        "total_score": 0.2137083690898556,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0030.jpg",
+        "sharpness": 0.09343035641014726,
+        "lighting": 0.5394112692144759,
+        "pose": 0.7500164079520697,
+        "total_score": 0.21328744415287626,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0023.jpg",
+        "sharpness": 0.05770560204260973,
+        "lighting": 0.5207716805858147,
+        "pose": 0.7744657921810699,
+        "total_score": 0.21274088669905644,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0022.jpg",
+        "sharpness": 0.051006922532470765,
+        "lighting": 0.5125003782377147,
+        "pose": 0.7806194625998547,
+        "total_score": 0.2124746225969895,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0034.jpg",
+        "sharpness": 0.07368506979271951,
+        "lighting": 0.5299934262285162,
+        "pose": 0.7602479423868312,
+        "total_score": 0.21241743807948985,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0024.jpg",
+        "sharpness": 0.05304791990877468,
+        "lighting": 0.5292740180948923,
+        "pose": 0.7689011437908497,
+        "total_score": 0.21201242255853667,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0032.jpg",
+        "sharpness": 0.07309255537538044,
+        "lighting": 0.5358580209089807,
+        "pose": 0.7512142716654563,
+        "total_score": 0.21113791196152737,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0033.jpg",
+        "sharpness": 0.06899326259614921,
+        "lighting": 0.5335570571592834,
+        "pose": 0.7538789412369886,
+        "total_score": 0.211030820222941,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0031.jpg",
+        "sharpness": 0.0708365649258884,
+        "lighting": 0.5378391846707817,
+        "pose": 0.7504001679375454,
+        "total_score": 0.21094760854717612,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0027.jpg",
+        "sharpness": 0.0537825387979157,
+        "lighting": 0.5399622064875333,
+        "pose": 0.7538740619704671,
+        "total_score": 0.21014928692263835,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0029.jpg",
+        "sharpness": 0.055992850048582336,
+        "lighting": 0.5393898836540789,
+        "pose": 0.7517223054345195,
+        "total_score": 0.20988273445717004,
+        "passes_threshold": true
+      },
+      {
+        "filename": "frame_0028.jpg",
+        "sharpness": 0.053668869875242324,
+        "lighting": 0.5399193672839506,
+        "pose": 0.7525558278867103,
+        "total_score": 0.20986998929326137,
+        "passes_threshold": true
+      }
+    ]
+  }
+}

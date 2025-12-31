@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-25T15:04:38.167319",
+  "log_type": "scoring",
+  "data": {
+    "total_raw_frames": 0,
+    "total_scored_frames": 0,
+    "total_selected_frames": 0,
+    "thresholds_used": {
+      "min_sharpness": 0.05,
+      "min_lighting": 0.05,
+      "min_pose": 0.0,
+      "min_total_score": 0.0
+    },
+    "weights_used": {
+      "sharpness": 0.1,
+      "lighting": 0.1,
+      "pose": 0.2
+    },
+    "all_frames": [],
+    "selected_frames": []
+  }
+}

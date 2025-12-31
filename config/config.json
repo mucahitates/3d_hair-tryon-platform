@@ -1,0 +1,118 @@
+{
+  "paths": {
+    "girdi": "girdi",
+    "cikti": "cikti",
+    "loglar": "loglar"    
+  },
+     
+  "users": {
+    "video_extensions": [".mp4", ".mov", ".avi"]
+  },
+
+  "frame_extraction": {
+    "enabled": true,
+    "interval_sec": 0.10,
+    "diff_threshold": 1.0,
+    "resize_width": 640,
+    "jpeg_quality": 92,
+    "max_frames": 120
+  },
+
+  "scoring": {
+    "enabled": true,
+    "weights": {
+      "sharpness": 0.1,
+      "lighting": 0.1,
+      "pose": 0.2
+    },
+    "thresholds": {
+      "min_sharpness": 0.05,
+      "min_lighting": 0.05,
+      "min_pose": 0.0,
+      "min_total_score": 0.0
+    },
+    "selection": {
+      "max_selected_frames": 50,
+      "min_selected_frames": 20
+    }
+  },
+
+  "metashape": {
+    "enabled": true,
+
+    "align_photos": {
+      "accuracy": "highest",
+      "generic_preselection": true,
+      "reference_preselection": false,
+      "keypoint_limit": 400000,
+      "tiepoint_limit": 0,
+      "adaptive_camera_model_fitting": true,
+
+      "exclude_stationary_tie_points": true,
+      "guided_image_matching": true
+    },
+
+    "clean_tie_points": {
+      "enabled": true,
+      "criterion": "reprojection_error",
+      "level": 0.4
+    },
+
+    "optimize_cameras": {
+      "enabled": true
+    },
+
+    "build_point_cloud": {
+      "source_data": "depth_maps",
+      "quality": "high",
+      "depth_filtering": "mild",
+      "reuse_depth_maps": true,
+
+      "calculate_point_colors": true,
+      "calculate_point_confidence": true,
+
+      "save_project_after_each_step": false
+    },
+
+    "build_model": {
+      "source_data": "point_cloud",
+      "surface_type": "arbitrary",
+      "face_count": "high",
+      "interpolation": "enabled",
+
+      "split_in_blocks": false,
+      "reuse_depth_maps": true,
+
+      "calculate_vertex_colors": true,
+      "save_project_after_each_step": false
+    },
+
+    "build_uv": {
+      "mapping_mode": "generic"
+    },
+
+    "build_texture": {
+      "texture_type": "diffuse",
+      "source_data": "images",
+      "mapping_mode": "generic",
+      "blending_mode": "mosaic",
+      "texture_size": 8192,
+      "page_count": 1,
+
+      "enable_hole_filling": true,
+      "enable_ghosting_filter": true
+    },
+
+    "export": {
+      "format": "obj",
+      "save_texture": true,
+      "embed_texture": false
+    }
+  },
+
+  "pipeline": {
+    "run_frame_extraction": true,
+    "run_scoring": true,
+    "run_metashape": true
+  }
+}
